@@ -9,5 +9,6 @@ each folder has its own readme plus fix and check scripts.
 - `window-manager/` no title bars, no borders, fix xfwm4.
 - `bluetooth/` bluetooth always on at boot, keep it off.
 - `wallpaper/` black wallpaper, bring xfdesktop back.
+- `optimize/` slow boot and junk, cut services and clean disk.
 
 tested on minios with xfce 4.20, xfwm4 4.20.0, bluez + blueman.
