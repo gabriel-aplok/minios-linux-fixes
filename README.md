@@ -6,6 +6,18 @@ minios is a tiny debian based distro for old pcs and usb sticks. it runs xfce an
 
 each folder has its own readme plus fix and check scripts.
 
+## quick start on any minios
+
+```bash
+git clone git@github.com:gabriel-aplok/minios-linux-fixes.git
+cd minios-linux-fixes
+./install.sh
+```
+
+`install.sh` runs the wallpaper and window manager fixes, safe to repeat.
+bluetooth and optimize are separate because they need sudo and change defaults.
+
+
 - `window-manager/` no title bars, no borders, fix xfwm4.
 - `bluetooth/` bluetooth always on at boot, keep it off.
 - `wallpaper/` black wallpaper, bring xfdesktop back.
