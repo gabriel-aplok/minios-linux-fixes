@@ -19,3 +19,13 @@ xfdesktop was not running. that is the app that draws the wallpaper and icons. o
 ```
 
 then log out once with save session checked while the wallpaper shows.
+
+## permanent
+
+the saved session keeps missing xfdesktop. `autostart.sh` adds an autostart
+entry so xfdesktop starts on every login and the wallpaper never goes black
+again:
+
+```bash
+./autostart.sh
+```
